@@ -6,14 +6,14 @@ function ExitAni() {
   const [isLogged, setLogged] = useState(false);
 
   function toggle() {
-    setLogged(prev => !prev);
+    setLogged(prev => !prev)
   }
 
   return (
     <>
       <button
         onClick={toggle}
-        className="w-24 h-10 bg-amber-200 rounded"
+        className="w-24 h-10 bg-amber-500 rounded"
       >
         Click ME
       </button>
