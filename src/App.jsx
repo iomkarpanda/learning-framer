@@ -3,6 +3,9 @@ import './App.css'
 import AniButton from "./components/AniButton"
 import VariantAni from "./components/VariantAni"
 import ExitAni from './components/ExitAni'
+import LayoutAni from './components/LayoutAni'
+import LayoutIDAni from './components/LayoutIDAni'
+
 
 function App() {
 
@@ -10,7 +13,9 @@ function App() {
     <>
       {/* <AniButton/> */}
       {/* <VariantAni/> */}
-      <ExitAni/>
+      {/* <ExitAni/> */}
+      {/* <LayoutAni/> */}
+      <LayoutIDAni/>
     </>
   )
 }
